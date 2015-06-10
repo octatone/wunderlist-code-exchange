@@ -1,0 +1,20 @@
+{
+  "name": "wunderlist-code-exchange",
+  "version": "1.0.0",
+  "description": "Simple proxy for handling reddit OAuth2 code exchange for installed applications that should not store secrets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "engine": "node 0.12.0",
+  "author": "Raymond May Jr.",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "koa": "^0.18.0",
+    "koa-body": "^1.0.0",
+    "koa-request": "^1.0.0",
+    "koa-router": "^4.1.0",
+    "require-directory": "^2.0.0"
+  }
+}
