@@ -1,7 +1,7 @@
 {
   "name": "wunderlist-code-exchange",
   "version": "1.0.0",
-  "description": "Simple proxy for handling reddit OAuth2 code exchange for installed applications that should not store secrets.",
+  "description": "Simple proxy for handling Wunderlist OAuth2 code exchange for installed applications that should not store secrets.",
   "main": "index.js",
   "scripts": {
     "start": "node --harmony index.js"
